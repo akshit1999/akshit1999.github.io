@@ -1,48 +1,54 @@
 *{
 	box-sizing: border-box;
+  font-family: Helevetica, sans-serif; 
+
 }
-div > section{
+
+body {
+    background-color: #d6d6d6;
+}
+
+section{
 	background-color: #DEB887;
   width: 100%;
 	border: 1px solid black;
-	font-family: Helevetica, sans-serif; 
+  margin: 10px;
 }
 
 h1 {
   margin-bottom: 30px;
   text-align: center;
-  font-family: Helvetica, sans-serif;
   font-size: 2.50em;
   font-weight: bold;
   color: #2F4F4F;
 }
 
-section h2{
+section > h2{
+  float: right;
 	text-align: right;
 	border: 1px solid black;
-  	width: 100%;
+  	width: 230px;
+    height: 40px;
     margin-bottom: 0px;
   	margin-top: 0px;
-  	padding: 2px;
+  	padding: 5px;
   	font-size: 1.25em;
-  	overflow-x: auto;
 }
 
-#chicken{
+section.chicken > h2{
 	background-color: #F08080;
 }
-#beef{
+section.beef > h2{
 	background-color: #1E90FF;
 }
-#sushi{
+section.sushi > h2{
 	background-color: #FF6347;
 }
 
- section p {
+ section > p {
   text-align: center;
-  padding: 1px;
+  padding: 5px 5px 5px 5px;
   font-size: 1em;
-  width: 100%;
   overflow: auto;
 }
 
