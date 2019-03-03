@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  font-family: Helevetica, sans-serif; 
+
+}
+
+body {
+    background-color: #c0c0c0;
+
+}
+#header-nav{
+  border-radius: 0px;
+  border: 0px;
+  background-color: #98fb98;
+}
+.navbar-brand h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0px;
+  color: #557c3e;
+  text-align: left;
+  font-size: 3em;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #e7e7e7;
+}
+
+section{
+  background-color: #DEB887;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 2.50em;
+  font-weight: bold;
+  color: #2F4F4F;
+}
+
+section > h3{
+  margin-top: 0px;
+  float: right;
+  text-align: center;
+  border: 1px solid black;
+  font-weight: bold;
+    width: 230px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 1.25em;
+}
+
+section.julius > h3{
+  background-color: #F08080;
+}
+section.macbeth > h3{
+  background-color: #009166;
+}
+section.venice > h3{
+  background-color: #0066fa;
+}
+
+ section > p {
+  clear: both;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 15px 5px 5px 5px;
+  font-size: 1em;
+  overflow: auto;
+}
+
+
+section a{
+  background-color: #e6e6fa;
+  padding: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 1.5em;
+  border: 1px solid black; 
+}
+.row{
+  width: 100%;
+}
+.container-fluid{
+  background-color: #c0c0c0;
+  border: 1px solid blue;
+  color: #4b0082;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+@media (min-width: 992px) {
+ #header-nav{
+  height: 125px;
+ } 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ #header-nav{
+  height: 100px;
+ }
+ .navbar-brand h1{
+ font-size: 2.5em;
+ } 
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /*#header-nav{
+    height: 75px;
+  }
+.navbar-brand h1{
+  font-size: 1.8em; */
+}
+}
